@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+
+/*Main Section*/
+
+main {
+  justify-content: center;
+  align-items: center;
+  justify-content:space-evenly;
+  margin: 2rem;
+}
+
+/*BOXES START*/
+.allcontainer{
+  display: grid;
+  grid-template-columns: 1fr ;
+}
+
+.container1 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(245, 143, 143);
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem 1rem 1rem;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box1 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(248, 60, 60);
+  align-items: center;
+  display: flex;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box1 {
+  height: 15vw;
+  width: 15vw;
+  background-color: rgb(74, 46, 46);
+  align-items: center;
+  display: flex;
+  color: rgb(245, 143, 143);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.container2 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(131, 247, 158);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box2 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(20, 225, 68);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box2 {
+  height: 15vw;
+  width: 15vw;
+  background-color: rgb(39, 74, 47);
+  display: flex;
+  align-items: center;
+  color: rgb(131, 247, 158);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.container3 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(238, 128, 253);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box3 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(225, 36, 250);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box3 {
+  height: 15vw;
+  width: 15vw;
+  background-color: rgb(73, 9, 82);
+  display: flex;
+  align-items: center;
+  color:rgb(238, 128, 253);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+
+.container4 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(132, 160, 242);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box4 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(34, 87, 247);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box4 {
+  height: 15vw;
+  width: 15vw;
+  background-color: rgb(30, 43, 82);
+  display: flex;
+  align-items: center;
+  color: rgb(132, 160, 242);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.container5 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(251, 169, 127);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box5 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(253, 119, 51);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box5 {
+  height: 15vw;
+  width: 15vw;
+  background-color:  rgb(92, 36, 8);
+  display: flex;
+  align-items: center;
+  color: rgb(251, 169, 127);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+}
+
+.container6 {
+  height: 27vw;
+  width: 27vw;
+  background-color: rgb(247, 248, 161);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  margin-right: 2vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.outer_box6 {
+  height: 22vw;
+  width: 22vw;
+  background-color: rgb(241, 245, 9);
+  display: flex;
+  align-items: center;
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.inner_box6 {
+  height: 15vw;
+  width: 15vw;
+  background-color:  rgb(76, 77, 48);
+  display: flex;
+  align-items: center;
+  color: rgb(247, 248, 161);
+  padding: 1vw 1vw 1vw 1vw;
+  justify-content: center;
+  cursor: pointer;
+  transition: 1s;
+}
+
+img {
+width: 10vw;
+height: 10vw;
+cursor: pointer;
+transition: 1s;
+}
+
+/*BOXES-END*/
+/*BOXES Hover Effect START*/
+
+.container1:hover {
+  border-radius: 50%;
+}
+
+.outer_box1:hover {
+
+  border-radius: 50%;
+}
+
+.inner_box1:hover {
+  border-radius: 50%;
+}
+
+.container2:hover {
+  border-radius: 50%;
+}
+
+.outer_box2:hover {
+  border-radius: 50%;
+}
+
+.inner_box2:hover {
+  border-radius: 50%;
+}
+
+.container3:hover {
+  border-radius: 50%;
+}
+
+.outer_box3:hover {
+  border-radius: 50%;
+}
+
+.inner_box3:hover {
+  border-radius: 50%;
+}
+
+
+.container4:hover {
+  border-radius: 50%;
+}
+
+.outer_box4:hover {
+  border-radius: 50%;
+}
+
+.inner_box4:hover {
+  border-radius: 50%;
+}
+
+.container5:hover {
+  border-radius: 50%;
+}
+
+.outer_box5:hover {
+  border-radius: 50%;
+}
+
+.inner_box5:hover {
+  border-radius: 50%;
+}
+
+.container6:hover {
+  border-radius: 50%;
+}
+
+.outer_box6:hover {
+  border-radius: 50%;
+}
+
+.inner_box6:hover {
+  border-radius: 50%;
+}
+
+img:hover {
+  border-radius: 50%;
+}
+
+/*BOXES Hover Effect End*/
+
+
+@media (min-width: 500px) {
+  .allcontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (min-width: 760px) {
+  .allcontainer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1100px) {
+  .allcontainer {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main {
+    width: 50vw;
+  }
+}
